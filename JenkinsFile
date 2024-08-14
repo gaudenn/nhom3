@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git 'https://github.com/gaudenn/hunga1.git'
+                git 'https://github.com/gaudenn/nhom3.git'
             }
         }
     }
