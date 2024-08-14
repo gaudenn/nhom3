@@ -1,0 +1,10 @@
+pipeline {
+    argen any
+    stages {
+        stage ('Clone') {
+            steps {
+                git 'https://github.com/gaudenn/hunga1.git'
+            }
+        }
+    }
+}
